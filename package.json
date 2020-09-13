@@ -1,0 +1,21 @@
+{
+  "name": "pluma-plugins-scraper",
+  "version": "0.1.0",
+  "description": "Scraper to get the full list of plugins for PluMA to import into a database",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "compile": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joseph Quinn <quinn.josephr@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "tabletojson": "^2.0.4",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "tslib": "^2.0.1",
+    "typescript": "^4.0.2"
+  }
+}
