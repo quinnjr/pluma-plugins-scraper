@@ -1,5 +1,3 @@
-import axios from 'axios';
-import cheerio from 'cheerio';
 import {Tabletojson} from 'tabletojson';
 import fs from 'fs/promises';
 
